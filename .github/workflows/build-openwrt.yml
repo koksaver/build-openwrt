@@ -6,7 +6,7 @@ on:
       rep_url:
         description: '仓库地址'     
         required: true
-        default: 'https://github.com/JiaY-shi/openwrt.git'
+        default: 'https://github.com/koksaver/openwrt6X.git'
       branch_name:
         description: '分支'     
         required: true
@@ -20,7 +20,7 @@ on:
       config_file:
         description: '配置文件'     
         required: true
-        default: 'jdc_ax1800-pro.nss.config' 
+        default: 'qihoo_v6.config' 
         type: choice
         options:
         - gl-ax1800.config
@@ -29,6 +29,7 @@ on:
         - gl-axt1800.nss.config
         - gl-mt6000.config
         - jdc_ax1800-pro.nss.config
+        - qihoo_v6.config
 jobs:
   build:
     runs-on: ubuntu-latest
