@@ -20,7 +20,7 @@ on:
       config_file:
         description: '配置文件'     
         required: true
-        default: 'qihoo_v6.config' 
+        default: 'qihoo_v6.nss.config' 
         type: choice
         options:
         - gl-ax1800.config
@@ -29,7 +29,7 @@ on:
         - gl-axt1800.nss.config
         - gl-mt6000.config
         - jdc_ax1800-pro.nss.config
-        - qihoo_v6.config
+        - qihoo_v6.nss.config
 jobs:
   build:
     runs-on: ubuntu-latest
