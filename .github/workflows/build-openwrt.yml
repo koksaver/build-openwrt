@@ -28,7 +28,7 @@ on:
         - gl-axt1800.config
         - gl-axt1800.nss.config
         - gl-mt6000.config
-
+        - jdc_ax1800-pro.nss.config
 jobs:
   build:
     runs-on: ubuntu-latest
